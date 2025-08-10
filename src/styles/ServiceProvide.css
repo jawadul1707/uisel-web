@@ -1,0 +1,152 @@
+/* @tailwind directives removed. Make sure to include Tailwind's CSS via your build process or CDN if needed. */
+
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.service-section {
+  flex: 1;
+  min-width: 250px;
+  padding: 80px 0 60px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.service-title {
+  color: #18196b;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.service-subtitle {
+  color: #18196b;
+  font-size: 1.1em;
+  margin-bottom: 60px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: transparent;
+  border-radius: 18px;
+  width: 260px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: none;
+}
+
+.service-card-top {
+  background: #8ea6d9;
+  border-radius: 18px 18px 0 0;
+  flex: 1 1 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.service-card-img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  border-radius: 14px 14px 0 0;
+  box-shadow: none;
+  display: block;
+}
+
+.service-card-bottom {
+  background: #e5e5ff;
+  border-radius: 0 0 18px 18px;
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0 18px 0;
+}
+
+.service-card-label {
+  color: #0a1440;
+  font-size: 1.3em;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.service-card-link {
+  color: #0a1440;
+  font-size: 1em;
+  font-weight: 600;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: text-decoration 0.2s;
+}
+
+.service-card-link:hover {
+  text-decoration: underline;
+}
+
+.data-section, .analysis-section {
+  flex: 1;
+  min-width: 250px;
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-section h2, .analysis-section h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.data-section ul, .analysis-section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.data-section li, .analysis-section li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #666;
+}

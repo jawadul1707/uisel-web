@@ -1,0 +1,112 @@
+.partners-section {
+  background: #fafbfc;
+  padding: 64px 0 56px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partners-title {
+  color: #18196b;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.partners-subtitle {
+  color: #18196b;
+  font-size: 1.1em;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.partners-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px 24px;
+  margin-bottom: 32px;
+  width: 100%;
+  max-width: 1200px;
+}
+.partner-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px 0 #00000010;
+  padding: 32px 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.partner-card.featured {
+  background: #e5e7f7;
+  box-shadow: 0 4px 24px 0 #0000001a;
+  border: 2px solid #bfc6e0;
+}
+.partner-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 18px;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px 0 #00000010;
+}
+.partner-info {
+  text-align: center;
+}
+.partner-name {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #18196b;
+  margin-bottom: 4px;
+}
+.partner-role {
+  font-size: 1em;
+  color: #888fa6;
+  margin-bottom: 12px;
+}
+.partner-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+.partner-skill {
+  background: #f3f5fa;
+  color: #18196b;
+  font-size: 0.95em;
+  padding: 6px 16px;
+  border-radius: 16px;
+  font-weight: 500;
+}
+.partners-viewall-btn {
+  background: #18196b;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s;
+  margin-top: 24px;
+}
+.partners-viewall-btn:hover {
+  background: #7E98D5;
+}
+.arrow {
+  font-size: 1.2rem;
+  margin-left: 2px;
+}
+@media (max-width: 900px) {
+  .partners-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .partners-cards {
+    grid-template-columns: 1fr;
+  }
+}

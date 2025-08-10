@@ -1,0 +1,83 @@
+.wherewework-section {
+  background: #fff;
+  padding: 56px 0 56px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.wherewework-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.wherewework-title {
+  color: #18196b;
+  font-size: 3em;
+  font-weight: 700;
+  margin-left: 0;
+  text-align: center;
+}
+.wherewework-nav {
+  display: flex;
+  gap: 16px;
+  margin-right: 0;
+  margin-top: 16px;
+}
+.wherewework-nav-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.wherewework-nav-btn.light {
+  background: #f3f5fa;
+  color: #18196b;
+}
+.wherewework-nav-btn.dark {
+  background: #0a1440;
+  color: #fff;
+}
+.wherewework-cards {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+  justify-content: flex-start;
+  margin-left: 48px;
+}
+.wherewework-card {
+  position: relative;
+  width: 340px;
+  height: 420px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px 0 #0000001a;
+  background: #eee;
+}
+.wherewework-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.wherewework-card-label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 18px 24px;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 500;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.55) 100%);
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
