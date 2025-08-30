@@ -67,7 +67,7 @@
   overflow: hidden; /* Allow button to overflow */
   height: 70px; /* Increased height */
   align-items: center;
-  width: 800px; /* Increased width */
+  width: 550px; /* Reduced width to remove extra space */
   max-width: 95vw;
   background: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -116,7 +116,7 @@
 }
 
 .search-btn-field button {
-  padding: 0 48px; /* More width */
+  padding: 0 32px; /* Reduced button width for tighter fit */
   background-color: #03084A; /* Match top bar purple */
   color: white;
   border: none;

@@ -11,7 +11,7 @@ function Header() {
       </div>
       <nav>
         <a href="#home">Home</a>
-        <a href="#services">Services <span className="dropdown-arrow">▼</span></a>
+        <a href="#trades">Trades</a>
         <a href="#blog">Blogs</a>
         <a href="#contact">Contact us</a>
       </nav>

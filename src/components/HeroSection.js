@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaSearch, FaMapMarkerAlt} from 'react-icons/fa';
+import { FaMapMarkerAlt} from 'react-icons/fa';
 import { GrUserWorker } from "react-icons/gr";
 import '../styles/HeroSection.css';
 
@@ -8,19 +8,11 @@ function HeroSection() {
     <section className="hero">
       <div className="hero-content">
         <h1>
-          Showcase <span>Your</span> Mastery.<br />Get Connected.
+          Find <span>Skilled</span> Professionals Worldwide<br /> Fast, Reliable, and Verified.
         </h1>
-        <p>Create your profile, showcase your skills, and let employers find you.</p>
+        <p>Connect with top talent from multiple countries through our trusted recruitment network.</p>
         <div className="search-bar-group">
           <div className="search-bar">
-            <div className="search-field">
-              <FaSearch className="icon" />
-              <select>
-                <option>As an Employee</option>
-                <option>As an Employer</option>
-                {/* Add more options as needed */}
-              </select>
-            </div>
             <div className="search-field">
               <FaMapMarkerAlt className="icon" />
               <select>
