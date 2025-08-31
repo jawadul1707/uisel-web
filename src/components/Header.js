@@ -12,7 +12,7 @@ function Header() {
       <nav>
         <a href="#home">Home</a>
         <a href="#trades">Trades</a>
-        <a href="#blog">Blogs</a>
+        <a href="#blog">Blogs</a>.
         <a href="#contact">Contact us</a>
       </nav>
       <div className="language">
